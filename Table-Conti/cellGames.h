@@ -18,5 +18,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
 @property (strong, nonatomic) IBOutlet UILabel *lblInfo;
 @property (strong, nonatomic) IBOutlet UILabel *lblGender;
+@property (strong, nonatomic) IBOutlet UILabel *lblLike;
 
+//Actions
+- (IBAction)btnLikePressed:(id)sender;
 @end

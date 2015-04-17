@@ -11,7 +11,10 @@
 @implementation cellGames
 
 - (void)awakeFromNib {
-    // Initialization code
+    self.lblLike.layer.borderColor  = [UIColor clearColor].CGColor;
+    self.lblLike.layer.borderWidth  = 1.0;
+    self.lblLike.clipsToBounds      = YES;
+    self.lblLike.layer.cornerRadius = 20;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -20,4 +23,8 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)btnLikePressed:(id)sender
+{
+    self.lblLike.backgroundColor = [UIColor blueColor];
+}
 @end
