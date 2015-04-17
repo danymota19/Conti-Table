@@ -12,6 +12,8 @@
 NSMutableArray *aNames;
 NSMutableArray *aInfo;
 NSMutableArray *aImages;
+NSMutableArray *aGender;
+BOOL            boGender[5];
 
 @interface Table01 ()
 
@@ -36,6 +38,13 @@ NSMutableArray *aImages;
     aInfo   = [NSMutableArray arrayWithObjects: @"Winterfell", @"Casa Lannister",@"Madre de Dragones",@"Darkirians",@"Winterfell",nil];
     
     aImages = [NSMutableArray arrayWithObjects: @"edna.png", @"lisa.png", @"marge.png", @"maude.png", @"patty.png",nil];
+    
+    boGender[0]=0;
+    boGender[1]=0;
+    boGender[2]=1;
+    boGender[3]=0;
+    boGender[4]=0;
+    
 }
 //-----------------------------------------
 //Table functions
@@ -67,8 +76,17 @@ NSMutableArray *aImages;
     }
     
     cell.lblName.text   = aNames[indexPath.row];
+    cell.lblName.adjustsFontSizeToFitWidth = YES;
     cell.lblInfo.text   = aInfo[indexPath.row];
     cell.imgUser.image  = [UIImage imageNamed:aImages[indexPath.row]];
+    
+    if (boGender[indexPath.row]==0) {
+       cell.lblGender.text=@"Male";
+    }
+    else {
+        
+    cell.lblGender.text=@"Female";
+    }
     
     return cell;
 }

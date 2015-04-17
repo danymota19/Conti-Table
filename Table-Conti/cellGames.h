@@ -17,5 +17,6 @@
 //Labels
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
 @property (strong, nonatomic) IBOutlet UILabel *lblInfo;
+@property (strong, nonatomic) IBOutlet UILabel *lblGender;
 
 @end
