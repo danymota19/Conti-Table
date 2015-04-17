@@ -10,11 +10,12 @@
 		D14E20B11AE144A70071E197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20B01AE144A70071E197 /* main.m */; };
 		D14E20B41AE144A70071E197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20B31AE144A70071E197 /* AppDelegate.m */; };
 		D14E20B71AE144A70071E197 /* Table_Conti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14E20B51AE144A70071E197 /* Table_Conti.xcdatamodeld */; };
-		D14E20BA1AE144A70071E197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20B91AE144A70071E197 /* ViewController.m */; };
+		D14E20BA1AE144A70071E197 /* Table01.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20B91AE144A70071E197 /* Table01.m */; };
 		D14E20BD1AE144A70071E197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14E20BB1AE144A70071E197 /* Main.storyboard */; };
 		D14E20BF1AE144A70071E197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14E20BE1AE144A70071E197 /* Images.xcassets */; };
 		D14E20C21AE144A70071E197 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14E20C01AE144A70071E197 /* LaunchScreen.xib */; };
 		D14E20CE1AE144A70071E197 /* Table_ContiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20CD1AE144A70071E197 /* Table_ContiTests.m */; };
+		D14E20DB1AE147890071E197 /* cellGames.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E20DA1AE147890071E197 /* cellGames.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		D14E20B21AE144A70071E197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D14E20B31AE144A70071E197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D14E20B61AE144A70071E197 /* Table_Conti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_Conti.xcdatamodel; sourceTree = "<group>"; };
-		D14E20B81AE144A70071E197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D14E20B91AE144A70071E197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D14E20B81AE144A70071E197 /* Table01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table01.h; sourceTree = "<group>"; };
+		D14E20B91AE144A70071E197 /* Table01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table01.m; sourceTree = "<group>"; };
 		D14E20BC1AE144A70071E197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14E20BE1AE144A70071E197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D14E20C11AE144A70071E197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D14E20C71AE144A70071E197 /* Table-ContiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table-ContiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14E20CC1AE144A70071E197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D14E20CD1AE144A70071E197 /* Table_ContiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_ContiTests.m; sourceTree = "<group>"; };
+		D14E20D91AE147890071E197 /* cellGames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellGames.h; sourceTree = "<group>"; };
+		D14E20DA1AE147890071E197 /* cellGames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellGames.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,10 @@
 		D14E20AD1AE144A70071E197 /* Table-Conti */ = {
 			isa = PBXGroup;
 			children = (
+				D14E20D81AE147490071E197 /* Customized */,
+				D14E20D71AE1473B0071E197 /* Controllers */,
 				D14E20B21AE144A70071E197 /* AppDelegate.h */,
 				D14E20B31AE144A70071E197 /* AppDelegate.m */,
-				D14E20B81AE144A70071E197 /* ViewController.h */,
-				D14E20B91AE144A70071E197 /* ViewController.m */,
 				D14E20BB1AE144A70071E197 /* Main.storyboard */,
 				D14E20BE1AE144A70071E197 /* Images.xcassets */,
 				D14E20C01AE144A70071E197 /* LaunchScreen.xib */,
@@ -120,6 +123,24 @@
 				D14E20CC1AE144A70071E197 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14E20D71AE1473B0071E197 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D14E20B81AE144A70071E197 /* Table01.h */,
+				D14E20B91AE144A70071E197 /* Table01.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D14E20D81AE147490071E197 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				D14E20D91AE147890071E197 /* cellGames.h */,
+				D14E20DA1AE147890071E197 /* cellGames.m */,
+			);
+			name = Customized;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +245,8 @@
 			files = (
 				D14E20B71AE144A70071E197 /* Table_Conti.xcdatamodeld in Sources */,
 				D14E20B41AE144A70071E197 /* AppDelegate.m in Sources */,
-				D14E20BA1AE144A70071E197 /* ViewController.m in Sources */,
+				D14E20BA1AE144A70071E197 /* Table01.m in Sources */,
+				D14E20DB1AE147890071E197 /* cellGames.m in Sources */,
 				D14E20B11AE144A70071E197 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
